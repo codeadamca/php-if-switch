@@ -67,7 +67,7 @@ If a piece of data is missing, try to think of an alternative. For example if a 
 
 ## Steps
 
-1. Open up a new file and name it if.php.
+1. Open up a new file and name it `if.php`.
 2. Add the following code to the new PHP file:
 
 ```php
