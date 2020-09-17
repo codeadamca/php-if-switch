@@ -73,53 +73,53 @@ If a piece of data is missing, try to think of an alternative. For example if a 
 ```php
 <!doctype html>
 <html>
-    <head>
-        <title>PHP If Statements</title> 
-    </head>
-    <body>
+  <head>
+    <title>PHP If Statements</title> 
+  </head>
+  <body>
 
-        <h1>PHP If Statements</h1> 
+    <h1>PHP If Statements</h1> 
 
-        <p>Use PHP echo and variables to output the following link information, use if statements to make sure everything outputs correctly:</p>
+    <p>Use PHP echo and variables to output the following link information, use if statements to make sure everything outputs correctly:</p>
 
-        <?php
+    <?php
 
-        // **************************************************
-        // Do not edit this code
-        
-        $randomNumber = ceil(rand(1,3));
+    // **************************************************
+    // Do not edit this code
 
-        echo '<p>The random number is '.$randomNumber.'.</p>';
+    $randomNumber = ceil(rand(1,3));
 
-        if ($randomNumber == 1)
-        {
-            $linkName = 'Codecademy';
-            $linkURL = 'https://www.codecademy.com/';
-            $linkImage = '';
-            $linkDescription = 'Learn to code interactively, for free.';
-        }
-        elseif ($randomNumber == 2)
-        {
-            $linkName = '';
-            $linkURL = 'https://www.w3schools.com/';
-            $linkImage = 'https://www.w3schools.com/css/w3css.gif';
-            $linkDescription = 'W3Schools is optimized for learning, testing, and training.';
-        }
-        else
-        {
-            $linkName = 'Mozilla Developer Network';
-            $linkURL = 'https://www.codecademy.com/';
-            $linkImage = 'https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png';
-            $linkDescription = 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.';
-        }
-        
-        // **************************************************
+    echo '<p>The random number is '.$randomNumber.'.</p>';
 
-        echo '<h2>'.$linkName.'</h2>';
+    if ($randomNumber == 1)
+    {
+      $linkName = 'Codecademy';
+      $linkURL = 'https://www.codecademy.com/';
+      $linkImage = '';
+      $linkDescription = 'Learn to code interactively, for free.';
+    }
+    elseif ($randomNumber == 2)
+    {
+      $linkName = '';
+      $linkURL = 'https://www.w3schools.com/';
+      $linkImage = 'https://www.w3schools.com/css/w3css.gif';
+      $linkDescription = 'W3Schools is optimized for learning, testing, and training.';
+    }
+    else
+    {
+      $linkName = 'Mozilla Developer Network';
+      $linkURL = 'https://www.codecademy.com/';
+      $linkImage = 'https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png';
+      $linkDescription = 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.';
+    }
 
-        ?>
-        
-    </body>
+    // **************************************************
+
+    echo '<h2>'.$linkName.'</h2>';
+
+    ?>
+
+  </body>
 </html>
 ```
 
