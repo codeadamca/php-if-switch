@@ -108,7 +108,7 @@ If a piece of data is missing, try to think of an alternative. For example if a 
     else
     {
       $linkName = 'Mozilla Developer Network';
-      $linkURL = 'https://www.codecademy.com/';
+      $linkURL = 'https://developer.mozilla.org';
       $linkImage = 'https://developer.mozilla.org/mdn-social-share.0ca9dbda.png';
       $linkDescription = 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.';
     }
