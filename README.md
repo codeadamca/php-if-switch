@@ -109,7 +109,7 @@ If a piece of data is missing, try to think of an alternative. For example if a 
     {
       $linkName = 'Mozilla Developer Network';
       $linkURL = 'https://www.codecademy.com/';
-      $linkImage = 'https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png';
+      $linkImage = 'https://developer.mozilla.org/mdn-social-share.0ca9dbda.png';
       $linkDescription = 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.';
     }
 
