@@ -31,7 +31,7 @@ $day = date('D');
 switch ($day) 
 {
   case "Monday":
-    echo "Sounds like someone has a case of the Mondays!;
+    echo "Sounds like someone has a case of the Mondays!";
     break;
   case "Friday":
     echo "TFIG!";
