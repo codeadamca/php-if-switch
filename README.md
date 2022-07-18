@@ -1,4 +1,4 @@
-# php-if-switch
+# A Basic Introduction tp PHP and If Statements
 
 A basic example of using PHP if statements and switches.
 
