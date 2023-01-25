@@ -50,7 +50,7 @@
 
             $linkName = 'Mozilla Developer Network';
             $linkURL = 'https://www.codecademy.com/';
-            $linkImage = 'https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png';
+            $linkImage = 'https://www.logo.wine/a/logo/MDN_Web_Docs/MDN_Web_Docs-Logo.wine.svg';
             $linkDescription = 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.';
 
         }
