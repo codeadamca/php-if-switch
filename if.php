@@ -39,7 +39,7 @@
 
             $linkName = '';
             $linkURL = 'https://www.w3schools.com/';
-            $linkImage = 'https://www.w3schools.com/css/w3css.gif';
+            $linkImage = 'w3schools.png';
             $linkDescription = 'W3Schools is optimized for learning, testing, and training.';
 
         }
@@ -50,7 +50,7 @@
 
             $linkName = 'Mozilla Developer Network';
             $linkURL = 'https://www.codecademy.com/';
-            $linkImage = 'https://www.logo.wine/a/logo/MDN_Web_Docs/MDN_Web_Docs-Logo.wine.svg';
+            $linkImage = 'mozilla.png';
             $linkDescription = 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.';
 
         }

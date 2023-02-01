@@ -102,14 +102,14 @@ If a piece of data is missing, try to think of an alternative. For example if a 
     {
       $linkName = '';
       $linkURL = 'https://www.w3schools.com/';
-      $linkImage = 'https://www.w3schools.com/css/w3css.gif';
+      $linkImage = 'w3schools.png';
       $linkDescription = 'W3Schools is optimized for learning, testing, and training.';
     }
     else
     {
       $linkName = 'Mozilla Developer Network';
       $linkURL = 'https://developer.mozilla.org';
-      $linkImage = 'https://www.logo.wine/a/logo/MDN_Web_Docs/MDN_Web_Docs-Logo.wine.svg';
+      $linkImage = 'mozilla.png';
       $linkDescription = 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.';
     }
 
