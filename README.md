@@ -69,74 +69,77 @@ If a piece of data is missing, try to think of an alternative. For example if a 
 
 1. Open up a new file and name it `if.php`.
 2. Add the following code to the new PHP file:
+    
+    ```php
+    <!doctype html>
+    <html>
+      <head>
+        <title>PHP If Statements</title> 
+      </head>
+      <body>
+    
+        <h1>PHP If Statements</h1> 
+    
+        <p>Use PHP echo and variables to output the following link information, use if statements to make sure everything outputs correctly:</p>
+    
+        <?php
+    
+        // **************************************************
+        // Do not edit this code
+    
+        $randomNumber = ceil(rand(1,3));
+    
+        echo '<p>The random number is '.$randomNumber.'.</p>';
+    
+        if ($randomNumber == 1)
+        {
+          $linkName = 'Codecademy';
+          $linkURL = 'https://www.codecademy.com/';
+          $linkImage = '';
+          $linkDescription = 'Learn to code interactively, for free.';
+        }
+        elseif ($randomNumber == 2)
+        {
+          $linkName = '';
+          $linkURL = 'https://www.w3schools.com/';
+          $linkImage = 'w3schools.png';
+          $linkDescription = 'W3Schools is optimized for learning, testing, and training.';
+        }
+        else
+        {
+          $linkName = 'Mozilla Developer Network';
+          $linkURL = 'https://developer.mozilla.org';
+          $linkImage = 'mozilla.png';
+          $linkDescription = 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.';
+        }
+    
+        // **************************************************
+    
+        echo '<h2>'.$linkName.'</h2>';
+    
+        ?>
+    
+      </body>
+    </html>
+    ```
 
-```php
-<!doctype html>
-<html>
-  <head>
-    <title>PHP If Statements</title> 
-  </head>
-  <body>
-
-    <h1>PHP If Statements</h1> 
-
-    <p>Use PHP echo and variables to output the following link information, use if statements to make sure everything outputs correctly:</p>
-
-    <?php
-
-    // **************************************************
-    // Do not edit this code
-
-    $randomNumber = ceil(rand(1,3));
-
-    echo '<p>The random number is '.$randomNumber.'.</p>';
-
-    if ($randomNumber == 1)
-    {
-      $linkName = 'Codecademy';
-      $linkURL = 'https://www.codecademy.com/';
-      $linkImage = '';
-      $linkDescription = 'Learn to code interactively, for free.';
-    }
-    elseif ($randomNumber == 2)
-    {
-      $linkName = '';
-      $linkURL = 'https://www.w3schools.com/';
-      $linkImage = 'w3schools.png';
-      $linkDescription = 'W3Schools is optimized for learning, testing, and training.';
-    }
-    else
-    {
-      $linkName = 'Mozilla Developer Network';
-      $linkURL = 'https://developer.mozilla.org';
-      $linkImage = 'mozilla.png';
-      $linkDescription = 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.';
-    }
-
-    // **************************************************
-
-    echo '<h2>'.$linkName.'</h2>';
-
-    ?>
-
-  </body>
-</html>
-```
-
-> Note: Do not edit the code between the stars. 
+    > Note: Do not edit the code between the stars. 
 
 3. After the stars, add code that will display the four chosen variables using if statements to confirm that the data exists. Notice that some of the variables are purposely empty. 
 
-> Hint: Add each value from the variables one at a time. Test your PHP after each new line of PHP. 
+    > Hint: Add each value from the variables one at a time. Test your PHP after each new line of PHP. 
 
 > [More information on PHP if statements](https://www.php.net/manual/en/control-structures.if.php)
 
-## Tutorial Requirements:
+> Full tutorial URL:  
+> https://codeadam.ca/learning/php-if-switch.html
 
-* [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
+***
+
+## Repo Resources
+
+* [Visual Studio Code](https://code.visualstudio.com/)
 * [Filezilla](https://filezilla-project.org/) (or any FTP program)
-
-Full tutorial URL: https://codeadam.ca/learning/php-if-switch.html
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
