@@ -123,11 +123,13 @@ If a piece of data is missing, try to think of an alternative. For example if a 
     </html>
     ```
 
-    > Note: Do not edit the code between the stars. 
+> [!Note]
+> Do not edit the code between the stars. 
 
 3. After the stars, add code that will display the four chosen variables using if statements to confirm that the data exists. Notice that some of the variables are purposely empty. 
 
-    > Hint: Add each value from the variables one at a time. Test your PHP after each new line of PHP. 
+> [!Hint]
+> Add each value from the variables one at a time. Test your PHP after each new line of PHP. 
 
 > [More information on PHP if statements](https://www.php.net/manual/en/control-structures.if.php)
 
